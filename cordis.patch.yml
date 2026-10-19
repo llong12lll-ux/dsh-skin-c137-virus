@@ -1,0 +1,8 @@
+# c137-virus skin bundle patch: 把本皮肤的公开发布客户端入口注册进 web 插件名册。
+#
+# 这是让它成为「一个 profile 层」而不是一个躺着的依赖的关键：
+# 依赖的 package.json 声明了 dsh.bundle.patch，安装后这一行 insert 才会挂载插件。
+# 皮肤之间的互斥切换由 skin-manager 通过 home 层的 disabled 行管理。
+- insert:
+    - id: ui-skin-c137-virus
+      name: dsh-skin-c137-virus

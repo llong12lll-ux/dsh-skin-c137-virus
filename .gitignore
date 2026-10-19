@@ -1,0 +1,10 @@
+# 素材源目录里的原图不入库（体积大，且是用户本机素材）
+artwork/*.png
+artwork/*.webp
+artwork/*.jpg
+artwork/*.jpeg
+# 备份与临时文件
+*.bak-*
+node_modules/
+.DS_Store
+Thumbs.db

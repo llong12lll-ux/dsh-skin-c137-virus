@@ -1,0 +1,31 @@
+{
+  "id": "c137-virus",
+  "name": "C-137 Virus",
+  "nameEn": "C-137 Virus",
+  "author": "llong12lll-ux",
+  "tagline": "荧光绿的深空病毒主题：黑底、荧光绿描边、卡通对话框外壳",
+  "taglineEn": "A neon-green deep-space virus theme: black base, neon outlines, cartoon composer frame",
+  "description": "DSH 的荧光绿病毒主题。深空星空背景、双角色立绘（自动跟随聊天框定位）、九宫格对话框外壳、黑底荧光绿描边配色。",
+  "tags": [
+    "virus",
+    "neon",
+    "green",
+    "space",
+    "dark",
+    "character"
+  ],
+  "accent": "#bafa78",
+  "bodyAttr": "data-dsh-c137-virus",
+  "dshCompatibility": "0.2.0rc2",
+  "package": "dsh-skin-c137-virus",
+  "wiring": {
+    "id": "ui-skin-c137-virus",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "preview/light.webp",
+    "dark": "preview/dark.webp"
+  },
+  "desktopIcon": "assets/icons/delighted.ico",
+  "order": 9
+}

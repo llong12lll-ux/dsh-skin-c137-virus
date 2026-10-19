@@ -1,0 +1,36 @@
+c137-virus (我的皮肤 · My Skin)
+====================================================
+
+【代码来源 · 保留】
+
+本皮肤的代码骨架克隆自 maid-atelier (深海女仆工坊 · Abyssal Maid Atelier,
+作者 Small-tailqwq · 仓库 dsh-external/dsh-deep-whale)，该部分代码采用 MIT 许可。
+按 MIT 的要求，在此保留其署名。皮肤的整体设计思路沿袭自该作品。
+
+【美术来源 · 当前状态】
+
+本包当前分发的美术素材为**本机自有素材**，已不再包含原 maid-atelier 的美术。
+因此 CC BY-NC-SA 4.0 的署名与相同方式共享条款，对本包当前分发的美术不再适用。
+
+以下原始署名链**保留仅供参考与追溯**，用于说明本皮肤的设计思路源自何处：
+
+1. 一创 (initial creation): 上善 —— 鲸鱼娘 (whale-girl) 角色形象的原作者。
+   个人主页 (profile): https://www.pixiv.net/users/62155430
+   The original whale-girl character design.
+
+2. 二创 (secondary creation): ZipZipPipe —— 在上善的鲸鱼娘形象基础上加入
+   DeepSeek 元素的女仆鲸鱼娘 (maid whale-girl) 二次设计（生成模型：GPT Image 2）。
+   个人主页 (profile): https://www.pixiv.net/users/18604994
+   The maid whale-girl redesign adding DeepSeek elements.
+
+3. 三创: Small-tailqwq (dsh-external/dsh-deep-whale) —— 原皮肤使用的素材。
+
+Artwork usage terms of the ORIGINAL project (LICENSE-ARTWORK): CC BY-NC-SA 4.0。
+该条款对本包当前分发的美术不再适用，但对应文件保留以备追溯。
+
+【第三方 IP 提示】
+
+本皮肤美术取材自 Rick and Morty —— Adult Swim / Warner Bros. Discovery 的注册 IP。
+个人本地使用不涉及分发；如需对外分发或商用，请自行确认授权。
+
+Software code is covered by LICENSE (MIT).

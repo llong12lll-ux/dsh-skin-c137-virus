@@ -1,0 +1,70 @@
+{
+  "name": "dsh-skin-c137-virus",
+  "description": "C-137 Virus — neon-green deep-space DSH skin with dual character art and a 9-slice composer frame.",
+  "icon": "assets/plugin-icon.png",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh": ">=0.1.7-rc.1 <0.3.0-0"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/dsh": {
+      "optional": true
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "skin.json",
+    "preview",
+    "assets/icons/*.ico",
+    "LICENSE",
+    "LICENSE-ARTWORK",
+    "NOTICE",
+    "README.md",
+    "assets/runtime",
+    "locale/*.json",
+    "assets/plugin-icon.png"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-skin",
+    "theme",
+    "skin",
+    "neon",
+    "dark"
+  ],
+  "author": "llong12lll-ux",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llong12lll-ux/dsh-skin-c137-virus.git"
+  },
+  "homepage": "https://github.com/llong12lll-ux/dsh-skin-c137-virus#readme",
+  "bugs": {
+    "url": "https://github.com/llong12lll-ux/dsh-skin-c137-virus/issues"
+  },
+  "engines": {
+    "dsh": ">=0.1.7-rc.1 <0.3.0-0"
+  }
+}
