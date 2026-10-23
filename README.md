@@ -17,8 +17,26 @@
 
 ## 安装
 
+从 GitHub 直接安装：
+
 ```sh
-dsh plugin --profile <你的profile> add dsh-skin-c137-virus
+dsh plugin --profile <你的profile> add github:llong12lll-ux/dsh-skin-c137-virus
+```
+
+`<你的profile>` 换成实际使用的 profile 名（桌面端通常是 `desktop`，`dsh web` 是 `web`）：
+
+```sh
+# 桌面端
+dsh plugin --profile desktop add github:llong12lll-ux/dsh-skin-c137-virus
+
+# dsh web
+dsh plugin --profile web add github:llong12lll-ux/dsh-skin-c137-virus
+```
+
+也可以直接用仓库地址：
+
+```sh
+dsh plugin --profile desktop add https://github.com/llong12lll-ux/dsh-skin-c137-virus
 ```
 
 装完**刷新页面**（Ctrl+Shift+R）即可，然后在「设置 → 皮肤管理」里切换。
